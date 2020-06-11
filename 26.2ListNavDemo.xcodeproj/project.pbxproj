@@ -13,6 +13,13 @@
 		C169FD11248F5199003C3C76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C169FD10248F5199003C3C76 /* Assets.xcassets */; };
 		C169FD14248F5199003C3C76 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C169FD13248F5199003C3C76 /* Preview Assets.xcassets */; };
 		C169FD17248F5199003C3C76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C169FD15248F5199003C3C76 /* LaunchScreen.storyboard */; };
+		C169FD1F248F5219003C3C76 /* CarAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C169FD1E248F5219003C3C76 /* CarAssets.xcassets */; };
+		C169FD21248F522B003C3C76 /* carData.json in Resources */ = {isa = PBXBuildFile; fileRef = C169FD20248F522B003C3C76 /* carData.json */; };
+		C169FD23248F5324003C3C76 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = C169FD22248F5324003C3C76 /* Car.swift */; };
+		C169FD25248F5470003C3C76 /* CarData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C169FD24248F5470003C3C76 /* CarData.swift */; };
+		C169FD27248F5842003C3C76 /* CarStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C169FD26248F5842003C3C76 /* CarStore.swift */; };
+		C169FD2B248F63B0003C3C76 /* CarDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C169FD2A248F63AF003C3C76 /* CarDetail.swift */; };
+		C169FD2D248F6BC5003C3C76 /* AddNewCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C169FD2C248F6BC5003C3C76 /* AddNewCar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		C169FD13248F5199003C3C76 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C169FD16248F5199003C3C76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C169FD18248F5199003C3C76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C169FD1E248F5219003C3C76 /* CarAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CarAssets.xcassets; sourceTree = "<group>"; };
+		C169FD20248F522B003C3C76 /* carData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = carData.json; sourceTree = "<group>"; };
+		C169FD22248F5324003C3C76 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		C169FD24248F5470003C3C76 /* CarData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarData.swift; sourceTree = "<group>"; };
+		C169FD26248F5842003C3C76 /* CarStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarStore.swift; sourceTree = "<group>"; };
+		C169FD2A248F63AF003C3C76 /* CarDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetail.swift; sourceTree = "<group>"; };
+		C169FD2C248F6BC5003C3C76 /* AddNewCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewCar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +73,14 @@
 				C169FD0A248F5198003C3C76 /* AppDelegate.swift */,
 				C169FD0C248F5198003C3C76 /* SceneDelegate.swift */,
 				C169FD0E248F5198003C3C76 /* ContentView.swift */,
+				C169FD22248F5324003C3C76 /* Car.swift */,
+				C169FD20248F522B003C3C76 /* carData.json */,
+				C169FD2C248F6BC5003C3C76 /* AddNewCar.swift */,
+				C169FD24248F5470003C3C76 /* CarData.swift */,
+				C169FD2A248F63AF003C3C76 /* CarDetail.swift */,
+				C169FD26248F5842003C3C76 /* CarStore.swift */,
 				C169FD10248F5199003C3C76 /* Assets.xcassets */,
+				C169FD1E248F5219003C3C76 /* CarAssets.xcassets */,
 				C169FD15248F5199003C3C76 /* LaunchScreen.storyboard */,
 				C169FD18248F5199003C3C76 /* Info.plist */,
 				C169FD12248F5199003C3C76 /* Preview Content */,
@@ -133,9 +154,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C169FD21248F522B003C3C76 /* carData.json in Resources */,
 				C169FD17248F5199003C3C76 /* LaunchScreen.storyboard in Resources */,
 				C169FD14248F5199003C3C76 /* Preview Assets.xcassets in Resources */,
 				C169FD11248F5199003C3C76 /* Assets.xcassets in Resources */,
+				C169FD1F248F5219003C3C76 /* CarAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,7 +171,12 @@
 			files = (
 				C169FD0B248F5198003C3C76 /* AppDelegate.swift in Sources */,
 				C169FD0D248F5198003C3C76 /* SceneDelegate.swift in Sources */,
+				C169FD25248F5470003C3C76 /* CarData.swift in Sources */,
+				C169FD2D248F6BC5003C3C76 /* AddNewCar.swift in Sources */,
+				C169FD23248F5324003C3C76 /* Car.swift in Sources */,
+				C169FD27248F5842003C3C76 /* CarStore.swift in Sources */,
 				C169FD0F248F5198003C3C76 /* ContentView.swift in Sources */,
+				C169FD2B248F63B0003C3C76 /* CarDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
